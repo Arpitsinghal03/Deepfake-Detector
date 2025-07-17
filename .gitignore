@@ -1,9 +1,11 @@
-# Ignore everything
-*
-
-# Allow these specific types and folders
+# Allow everything explicitly
+!*/
 !.gitignore
-!*/                    # allow all folders
-!*.py
-!*.txt
-!*.cfg
+!**/*.py
+!**/*.txt
+!**/*.cfg
+!**/*.json
+!**/*.csv
+!**/*.md
+!**/*.pyc
+!**/*.exe
