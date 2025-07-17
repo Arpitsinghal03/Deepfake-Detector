@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# But NOT these files/folders
+!.gitignore
+!*.py
+!*/             # Allow folders (required to track contents)
