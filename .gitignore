@@ -1,7 +1,9 @@
 # Ignore everything
 *
 
-# But NOT these files/folders
+# Allow these specific types and folders
 !.gitignore
+!*/                    # allow all folders
 !*.py
-!*/             # Allow folders (required to track contents)
+!*.txt
+!*.cfg
